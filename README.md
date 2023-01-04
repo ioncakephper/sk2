@@ -1,4 +1,4 @@
-# skelo
+# sk2
 
 Generate sidebar file and topic files for Docusaurus-powered documentation site.
 
@@ -43,16 +43,6 @@ generate sidebar and topic files from outline file(s).
 - **`--verbose`** provide progress messages.
 
 ## Outline element properties
-
-<!-- - `brief`
-- `description`
-- `folder`
-- `headings`
-- `id`
-- `items`
-- `label`
-- `slug`
-- `title` -->
 
 | Name | Type | Default | Description |
 |------|------|---------|-------------|
