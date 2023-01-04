@@ -5,7 +5,7 @@ Generate sidebar file and topic files for Docusaurus-powered documentation site.
 ## Usage
 
 ```bash
-sk2 [options] [command]
+sk2 [options] [command] 
 ```
 
 If you specify no command, the `build` command is executed.
