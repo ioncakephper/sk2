@@ -1,12 +1,11 @@
- 
-# skelo  
+# skelo
 
 Generate sidebar file and topic files for Docusaurus-powered documentation site.
 
 ## Usage
 
 ```bash
-skelo [options] [command]
+sk2 [options] [command]
 ```
 
 If you specify no command, the `build` command is executed.
@@ -27,11 +26,11 @@ Commands:
 
 generate sidebar and topic files from outline file(s).
 
-`skelo build [options] [outline...]`
+`sk2 build [options] [outline...]`
 
 **`Arguments`**
 - **`outline:`** filename(s) with sidebar outlines (default: "skelo-outline")
-  
+
 **`Options`**
 
 - **`-s, --sidebar <sidebarFilename>:`** path and name of sidebar file to generate (default: "./sidebar.js")
