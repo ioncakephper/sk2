@@ -1,0 +1,62 @@
+sidebars:
+  - label: docs
+    items:
+      - Overview:
+          '@slug': 'intro'
+          '@brief': Learn how Skelosaurus assists in building a skeleton documentation site powered by Docusarus.
+      - Getting started:
+          '@items':
+              - Outline file:
+                  '@brief': Create YAML file to describe sidebars. Learn how to describe sidebar properties, including topics and categories. Learn how to specify headings in a topic.
+              - Install Skelosaurus:
+                  '@headings':
+                      - Installing Skelosaurus
+                      - Verifying Skelosaurus
+              - Build documentation skeleton:
+                  '@brief': Learn how to use sk2 and create topic files and sidebars.js file. Launch Docusaurus development server and test your documentation's look and feel.
+      - Build documentation skeleton:
+          '@brief': Learn how to have a proof of concept for your documentation quickly.
+          '@headings':
+              - Prerequisites
+              - "Step 1: Create an outline"
+              - "Step 2: Build documention with skelo"
+              - "Step 3: Modify outline and repeat"
+      - YAML Outline:
+          - YAML outline schema
+          - Examples of YAML outline
+      - API:
+          '@brief': Learn how to use skelo CLI.
+          '@headings':
+              - "`-h, --help` option"
+              - "`-V, --version` option"
+              - "`build` command":
+                  - "Options"
+                  - Examples:
+                      - Default outline filename and options
+                      - Build sidebars from several outline files
+              - "`help` command"
+      - Guides:
+          '@brief': Follow these guides to get you started.
+          '@items':
+              - Skelosaurus and Docusaurus together
+              - Prepare and develop documention outline
+  - label: tutorials
+    folder: tutorials
+    items:
+      - Overview:
+          '@slug': overview
+          '@title': Title goes here
+      - Install Skelosaurus and Docusaurus
+      - Create documentation outline file:
+          - Here is another option:
+              '@slug': another option
+              '@title': 'A differen option'
+          - Generate additional features
+
+  - tutorials:
+      '@folder': 'tutorials'
+      '@items':
+          - Overview:
+              '@slug': index
+          - Outline file with several sidebars
+          - Detailed vs. Shortend element description

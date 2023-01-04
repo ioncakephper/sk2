@@ -1,0 +1,23 @@
+{
+  "name": "sk2",
+  "version": "1.0.0",
+  "description": "Generate sidebar file and topic files for Docusaurus-powered documentation site.",
+  "main": "index.js",
+  "bin": {
+    "sk2": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.4.1",
+    "file-easy": "^1.0.3",
+    "format": "^0.2.2",
+    "hbsr": "^1.0.9",
+    "lodash": "^4.17.21",
+    "yaml": "^2.2.0"
+  }
+}
