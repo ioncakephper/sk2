@@ -19,13 +19,13 @@ sidebars:
           '@headings':
               - Prerequisites
               - "Step 1: Create an outline"
-              - "Step 2: Build documention with skelo"
+              - "Step 2: Build documentation with sk2"
               - "Step 3: Modify outline and repeat"
       - YAML Outline:
           - YAML outline schema
           - Examples of YAML outline
       - API:
-          '@brief': Learn how to use skelo CLI.
+          '@brief': Learn how to use sk2 CLI.
           '@headings':
               - "`-h, --help` option"
               - "`-V, --version` option"
@@ -39,7 +39,7 @@ sidebars:
           '@brief': Follow these guides to get you started.
           '@items':
               - Skelosaurus and Docusaurus together
-              - Prepare and develop documention outline
+              - Prepare and develop documentation outline
   - label: tutorials
     folder: tutorials
     items:
@@ -50,7 +50,7 @@ sidebars:
       - Create documentation outline file:
           - Here is another option:
               '@slug': another option
-              '@title': 'A differen option'
+              '@title': 'A different option'
           - Generate additional features
 
   - tutorials:
@@ -59,4 +59,4 @@ sidebars:
           - Overview:
               '@slug': index
           - Outline file with several sidebars
-          - Detailed vs. Shortend element description
+          - Detailed vs. Shortened element description

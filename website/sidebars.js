@@ -41,14 +41,14 @@ const sidebars = {
             "label": "Guides",
             "items": [
                 "skelosaurus-and-docusaurus-together",
-                "prepare-and-develop-documention-outline"
+                "prepare-and-develop-documentation-outline"
             ]
         }
     ],
     "tutorials": [
         "tutorials/index",
         "tutorials/outline-file-with-several-sidebars",
-        "tutorials/detailed-vs-shortend-element-description"
+        "tutorials/detailed-vs-shortened-element-description"
     ]
 }
 /*

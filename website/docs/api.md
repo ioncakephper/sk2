@@ -4,7 +4,7 @@ sidebar_label: API
 
 # API
 
-Learn how to use skelo CLI.
+Learn how to use sk2 CLI.
 
 ## `-h, --help` option
 
