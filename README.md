@@ -5,12 +5,12 @@ Generate sidebar file and topic files for Docusaurus-powered documentation site.
 ## Usage
 
 ```bash
-sk2 [options] [command] 
+sk2 [options] [command]
 ```
 
 If you specify no command, the `build` command is executed.
 
-```
+```txt
 Options:
   -V, --version                 output the version number
   -h, --help                    display help for command
@@ -29,7 +29,7 @@ generate sidebar and topic files from outline file(s).
 `sk2 build [options] [outline...]`
 
 **`Arguments`**
-- **`outline:`** filename(s) with sidebar outlines (default: "skelo-outline")
+- **`outline:`** filename(s) with sidebar outlines (default: "sk2-outline")
 
 **`Options`**
 

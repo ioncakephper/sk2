@@ -9,7 +9,7 @@ const { logSidebarsFile } = require('../lib/utils')
 const { isString } = require("lodash")
 const { loadYamlOutline, buildSidebarItems } = require('../lib/yaml-outline')
 
-let { version, description } = require('../package.json')
+let { version, description, name } = require('../package.json')
 
 program
     .name('skelo')
@@ -19,7 +19,7 @@ program
 program
     .command('build', { isDefault: true })
     .description('generate sidebar and topic files from outline file(s).')
-    .argument("[outline...]", "filename(s) with sidebar outlines", `${program.name()}-outline`)
+    .argument("[outline...]", "filename(s) with sidebar outlines", `${name}-outline`)
 
     .option('--autoFolder', 'create folder name for categories and subcategories.')
     .option('--autoOverview', 'create overview topic for every category.')
